@@ -1,0 +1,105 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+header .container {
+  position: relative;
+}
+
+header h1,
+header h2 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header Düzenlemesi */
+header .row {
+  align-items: flex-start;
+}
+
+.github-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.github-logo img {
+  border-radius: 50%;
+  max-width: 50px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* İletişim Bölümü Düzenlemesi */
+.iletisim-kutu form {
+  display: grid;
+  grid-gap: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.iletisim-kutu input,
+.iletisim-kutu textarea {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  resize: vertical;
+  transition: border 0.3s ease;
+}
+
+.iletisim-kutu input:focus,
+.iletisim-kutu textarea:focus {
+  border-color: #555;
+}
+
+.iletisim-kutu input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.iletisim-kutu input[type="submit"]:hover {
+  background-color: #555;
+}
+/* Hakkımda Bölümü Düzenlemesi */
+#hakkimda {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.hakkimda-container {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hakkimda-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hakkimda-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
